@@ -23,10 +23,11 @@ def end_game(number)
 end
 
 def initial_round
-  deal_card
-  deal_card
+  2.times do
+    deal_card
+  end
+  
 end
-
 def hit?
   # code hit? here
 end

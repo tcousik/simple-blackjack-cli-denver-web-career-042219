@@ -31,10 +31,10 @@ end
 
 def hit?(number)
   prompt_user
-  get_user_input
-  if get_user_input = "h"
+  answer = get_user_input
+  if answer = "h"
     deal_card
-  else get_user_input != "h" || "s"
+  else  != "h" || "s"
     invalid_command
   return 
 end

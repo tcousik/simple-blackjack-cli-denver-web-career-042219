@@ -29,7 +29,7 @@ def initial_round
   return card_1 + card_2
 end
 
-def hit?
+def hit?(number)
   # code hit? here
 end
 
